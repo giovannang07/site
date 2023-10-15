@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Atena Produtos</title>
+    <link rel="stylesheet" href="teste.css" />
+</head>
+<body>
+
+    <!-- modelos de pizza na lista e no carrinho -->
+    <div class="models">
+
+        <!-- pizza na lista -->
+        <div class="joia-item">
+            <a href="">
+                <div class="joia-item--img"><img src="" /></div>
+                <div class="joia-item--add">+</div>
+            </a>
+            <div class="joia-item--price">R$ --</div>
+            <div class="joia-item--name">--</div>
+            <div class="joia-item--desc">--</div>
+        </div>
+
+        <!-- pizza no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <img src="images/logo1.png" width="100px" height="80px">
+        <div class="desktop-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Novidades</a></li>
+                <li><a href="index.html">Destaque</a></li>
+                <li><a href="index.html">Contato</a></li>
+                <li><a href="pag.html">Pagamento</a></li>
+            </ul>
+        </div>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <!-- /menu-openner -->
+
+    <!-- conteudo principal -->
+    <main>
+        
+        <h2>Joias</h2>
+
+        <div class="joia-area"></div>
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Seu carrinho</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra <a href="pag.html"></a></div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .pizzaWindowArea -->
+    <div class="joiaWindowArea">
+        <div class="joiaWindowBody">
+            <div class="joiaInfo--cancelMobileButton">Voltar</div>
+            <div class="joiaBig">
+                <img src="" />
+            </div>
+            <div class="joiaInfo">
+                <h1>--</h1>
+                <div class="joiaInfo--desc">--</div>
+                <div class="joiaInfo--sizearea">
+                    <div class="joiaInfo--sector">Tamanho</div>
+                    <div class="joiaInfo--sizes">
+                        <div data-key="P" class="joiaInfo--size">PEQUENO <span>--</span></div>
+                        <div data-key="M" class="joiaInfo--size">MÉDIO <span>--</span></div>
+                        <div data-key="G" class="joiaInfo--size selected">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+                <div class="joiaInfo--pricearea">
+                    <div class="joiaInfo--sector">Preço</div>
+                    <div class="joiaInfo--price">
+                        <div class="joiaInfo--actualPrice">R$ --</div>
+                        <div class="joiaInfo--qtarea">
+                            <button class="joiaInfo--qtmenos">-</button>
+                            <div class="joiaInfo--qt">1</div>
+                            <button class="joiaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="joiaInfo--addButton">Adicionar ao carrinho</div>
+                <div class="joiaInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .pizzaWindowArea -->
+
+    <script src="joia.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

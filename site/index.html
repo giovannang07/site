@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atena Joias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
+<body>
+
+    <header class="max-width bg" id="Home">
+            <div class="container">
+                <nav class="menu">
+                    <div class="logo"></div>
+                    <div class="desktop-menu">
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">Novidades</a></li>
+                            <li><a href="#Service">Destaque</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                            <li><a href="qmsomos.html">Sobre</a></li>
+                            <li><a href="carrinho.html">Produtos</a></li>
+                            <li><a href="login.html">Cadastrar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile-menu" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        <ul id="myLinks">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">Novidades</a></li>
+                            <li><a href="#Service">Destaque</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="call">
+                    <div class="left">
+                        <h1 class="color-azul text-gd">Novas Coleções</h1>
+                        <p class="color-azul text-pq">Cada peça da coleção "Deuses da Grécia" é uma obra-prima única, cuidadosamente trabalhada para capturar a essência divina dos 
+                            deuses gregos.As joias desta coleção são confeccionadas com materiais de alta qualidade, incluindo ouro, prata e pedras preciosas selecionadas a dedo, como safiras, rubis e
+                             esmeralda. Descubra o fascínio e a elegância desta coleção exclusiva na loja Atena e deixe-se envolver pela aura
+                              mágica dos deuses da Grécia. </p>
+                        <button>Compre Agora</button>
+                    </div>
+                    <div class="right">
+                        <div class="imagem">
+                            <img src="img/pandora.jpeg" alt="">
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <button id="back-to-top">^</button>
+    </header>
+
+    <section class="max-width bg2" id="About">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Novidades</h2>
+                <div class="line">
+                    <div class="text-titulo">Coleção Deuses</div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="box">
+                    <img src="img/colar.jpeg" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Colar Poseidon</h2>
+                        <p class="color-branco">Coleção Deuses Gregos</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/anel.jpeg" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Anel Atena</h2>
+                        <p class="color-branco">Coleção Deuses Gregos</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/brinco.png" alt="">
+                    <div class="text">
+                        <h2 class="color-branco">Brinco Afrodite</h2>
+                        <p class="color-branco">Coleção Deuses Gregos</p>
+                        <i class="fa fa-long-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <section class="max-width bg" id="Service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <h2 class="text-md color-cinza-1">Destaque</h2>
+                    <div class="line">
+                        <div class="text-titulo">Promoções</div>
+                    </div>
+                </div>
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <div class="cards">
+                        <label class="card" for="item-1" id="song-1">
+                            <img src="img/pingente.png" alt="">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-2" id="song-2">
+                            <img src="img/colar2.jpeg">
+                            <button>Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-3" id="song-3">
+                            <img src="img/pulseira.jpeg">
+                            <button>Comprar Agora </button>
+                        </label>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="max-width bg2" id="Contact">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Contato</h2>
+                <div class="line">
+                    <div class="text-titulo">Fale Conosco</div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="left">
+                    <div class="box">
+                        <h1>Inscreva-se para receber Promoções</h1>
+                        <form action="">
+                            <input type="text" placeholder="Nome Completo">
+                            <input type="email" placeholder="Seu E-mail">
+                            <input type="text" placeholder="Reclamações ou elogios?">
+                            <input type="submit" value="Enviar">
+                        </form>
+                        <h1>Siga-nos</h1>
+                        <div class="social">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <h1>Nosso Endereço</h1>
+                        <div class="info">
+                            <div class="icons">
+                                <article>
+                                    <article id=“mapa”>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234273.2358128016!2d-46.796232799999984!3d-23.44172535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58f2aecfc59f%3A0x5ea3920e4db7c14b!2sCampus%20S%C3%A3o%20Paulo%20%7C%20Instituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%20%7C!5e0!3m2!1spt-BR!2sbr!4v1694888085900!5m2!1spt-BR!2sbr" width="90%" height="100" ></iframe>
+                                    </article>
+                                <i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-phone" a link></i>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="buttonzap">
+                                <a href='https://api.whatsapp.com/send?phone=5511955593823&'class="icon" target='_blank'><i class="fab fa-whatsapp"></i></a>
+                              </div>
+                            <div class="text">
+                                <p>atenajoias@gmail.com</p>
+                                <p>+55 99 5555-5555</p>
+                                <p>São Caetano,Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <img src="img/logo.png" alt="">
+            <p class="text-pq">Copyright © 2023 <span class="color-laranja">ATENA</span> All Rights Reserved</p>
+            <p class="text-pq">Tel: (11) 458937-3823</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+       
+
+       function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+}
+
+            var btn = document.querySelector("#back-to-top");
+            btn.addEventListener("click", function() {
+                window.scrollTo(0, 0);
+            });
+    </script>
+</body>
+</html>
