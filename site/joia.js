@@ -81,7 +81,7 @@ let joiaJson = [
           'Médio',
           'Grande'
         ],
-        description: 'Mussarela, banana, canela e açúcar'
+        description: 'Um anel de Atena, com cristais vermelhos brilhantes, simbolizando a paixão pela sabedoria e o fogo da inteligência'
       },
       {
         id: 8,
