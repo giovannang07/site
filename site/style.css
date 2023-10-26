@@ -258,7 +258,6 @@ body::-webkit-scrollbar-thumb {
     text-decoration: underline;
 }
 
-/* #### mobile-menu #### */
 
 .mobile-menu{
     width: 95%;
@@ -301,10 +300,6 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500;
     text-decoration: underline;
 }
-
-/* #### Fim do Framework #### */
-
-/* #### Header #### */
 
 header .container{
     flex-direction: column;
