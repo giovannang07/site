@@ -7,8 +7,6 @@
 }
 
 
-/* #### Framework #### */
-
 html,body{
     height: 100%;
 }
@@ -234,8 +232,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     border: 1px solid #fff;
 }
-
-/* #### desktop-menu #### */
 
 .desktop-menu ul{
     display: flex;
@@ -639,10 +635,6 @@ header .right .imagem img{
     flex-direction:row;
 }
 
-/* #### Fim do Contact #### */
-
-/* #### footer #### */
-
 footer .container{
     width: 100%;
     min-height: 80px;
@@ -662,10 +654,6 @@ footer .container p{
     color: #1B3B56;
     font-family: 'Montserrat Alternates', sans-serif;
 }
-
-/* #### Fim do footer #### */
-
-/* #### Responsivo #### */
 
 @media screen and (max-width: 922px){
 
