@@ -25,11 +25,11 @@ const abrirModal = () => {
     setTimeout(() => seleciona('.joiaWindowArea').style.opacity = 1, 150)
 }
 
-const fecharModal = () => {
+const fecharModal = () => {splice
     seleciona('.joiaWindowArea').style.opacity = 0 // transparente
     setTimeout(() => seleciona('.joiaWindowArea').style.display = 'none', 500)
 }
-
+splice
 const botoesFechar = () => {
     selecionaTodos('.joiaInfo--cancelButton, .joiaInfo--cancelMobileButton').forEach( (item) => item.addEventListener('click', fecharModal) )
 }
@@ -141,7 +141,7 @@ const adicionarNoCarrinho = () => {
             cart.push(joia)
             console.log(joia)
             console.log('Sub total R$ ' + (joia.qt * joia.price).toFixed(2))
-        }
+        }splice
 
         fecharModal()
         abrirCarrinho()
@@ -207,8 +207,6 @@ const atualizarCarrinho = () => {
 
 			let joiaSizeName = cart[i].size
 
-			let joiaName = `${joiaItem.name} (${joiaSizeName})`
-
 		
 			cartItem.querySelector('img').src = joiaItem.img
 			cartItem.querySelector('.cart--item-nome').innerHTML = joiaName
@@ -219,7 +217,7 @@ const atualizarCarrinho = () => {
 				console.log('Clicou no botão mais')
 		
 				cart[i].qt++
-	
+	splice
 				atualizarCarrinho()
 			})
 
@@ -237,7 +235,7 @@ const atualizarCarrinho = () => {
 
 		
 				atualizarCarrinho()
-			})
+			})splice
 
 			seleciona('.cart').append(cartItem)
 
@@ -248,7 +246,7 @@ const atualizarCarrinho = () => {
 		desconto = subtotal * 0
 		total = subtotal - desconto
 
-	
+	splice
 		seleciona('.subtotal span:last-child').innerHTML = formatoReal(subtotal)
 		seleciona('.desconto span:last-child').innerHTML = formatoReal(desconto)
 		seleciona('.total span:last-child').innerHTML    = formatoReal(total)
