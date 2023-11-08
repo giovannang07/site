@@ -34,7 +34,7 @@ const botoesFechar = () => {
     selecionaTodos('.joiaInfo--cancelButton, .joiaInfo--cancelMobileButton').forEach( (item) => item.addEventListener('click', fecharModal) )
 }
 
-const preencheDadosDasPizzas = (joiaItem, item, index) => {
+const preencheDadosDasJoias = (joiaItem, item, index) => {
 	joiaItem.setAttribute('data-key', index)
     joiaItem.querySelector('.joia-item--img img').src = item.img
     joiaItem.querySelector('.joia-item--price').innerHTML = formatoReal(item.price[2])
