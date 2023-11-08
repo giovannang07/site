@@ -155,7 +155,7 @@ h1, h2 {
     transition:all ease .2s;
 }
 
-.joia-item a:hover .pizza-item--add {
+.joia-item a:hover .joia-item--add {
     background-color:#1B3B56;
 }
 
